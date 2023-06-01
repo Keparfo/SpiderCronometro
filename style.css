@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: initial;
+    /* Añade otras propiedades que desees reiniciar */
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('assets/spider-man-across-the-spider-verse-4k-4096x1716-10435.jpeg');
+  }
+  
+  .contenedor {
+    display: grid;
+    text-align: center;
+  }
+  
+
+  
+  h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    text-shadow: 0 0 6px whitesmoke;
+  }
+  
+  p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    color: whitesmoke;
+    text-shadow: 0 0 6px black;
+  }
+  
+  #muteButton {
+    background-color: #f44336; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor de apuntar */
+    border-radius: 4px; /* Borde redondeado */
+  }
+  
+  #muteButton:hover {
+    background-color: #d32f2f; /* Color de fondo al pasar el mouse */
+  }
+  

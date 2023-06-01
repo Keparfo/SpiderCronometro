@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SpiderTime 🕷️🕸️⏱️</title>
+  <link rel="icon" href="assets/spider-man-logo-0C9E5DCA9D-seeklogo.com.ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="assets/javascript/hourCO.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onload="obtenerHoraColombia()">
+  <div class="content">
+    <div class="contenedor">
+      <div class="title"><h1>La función empieza en:</h1></div> 
+      <div class="time"><p id="contador"></p></div>
+    </div>
+    <div id="music-button">
+      <audio id="music" src="assets/music/SpiderMusic.mp3" autoplay loop></audio>
+      <button id="muteButton" onclick="toggleMute()">Mute</button>
+    </div>
+  </div>
+</body>
+</html>
